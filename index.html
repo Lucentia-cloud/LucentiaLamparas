@@ -150,9 +150,10 @@ footer{padding:2.5rem 4rem;background:var(--dark);display:grid;grid-template-col
   #contacto{grid-template-columns:1fr;gap:3rem;padding:4rem 2rem}
 }
 @media(max-width:768px){
-  nav{padding:.5rem 1.5rem}
-  .nav-logo{height:70px}
-  .nav-links{gap:1.25rem}
+  nav{padding:.5rem 1rem;flex-wrap:wrap;justify-content:space-between}
+  .nav-logo{height:48px}
+  .nav-links{gap:.75rem}
+  .nav-links a{font-size:.65rem;letter-spacing:.08em}
   .hero{grid-template-columns:1fr;min-height:auto}
   .hero-text{padding:6rem 1.5rem 3rem}
   .hero-image{height:60vw}
