@@ -357,14 +357,12 @@ footer{padding:2.5rem 4rem;background:var(--dark);display:grid;grid-template-col
     <span class="product-price">$ 460.000</span>
   </div>
 </div>
-<div class="product-card" data-material="raku" data-soldout="false">
+<div class="product-card soldout-card" data-material="raku" data-soldout="true">
   <div class="product-image">
-    <img src="assets/img/img_013.jpg" alt="Lámpara Siena" style="width:100%;height:100%;object-fit:cover;display:block;" onclick="openModal('011')" style="cursor:pointer">
-    
-    
-    <div class="product-overlay">
-        <button class="overlay-btn" onclick="openModal('011')">Ver detalle</button>
-      </div>
+    <img src="assets/img/img_013.jpg" alt="Lámpara Siena" style="width:100%;height:100%;object-fit:cover;display:block;" >
+    <span class="soldout-badge">SOLD OUT</span>
+
+
   </div>
   <div class="product-info">
     <span class="product-num">011</span>
@@ -547,14 +545,12 @@ footer{padding:2.5rem 4rem;background:var(--dark);display:grid;grid-template-col
     <span class="product-price">$ 250.000</span>
   </div>
 </div>
-<div class="product-card" data-material="cerámica" data-soldout="false">
+<div class="product-card soldout-card" data-material="cerámica" data-soldout="true">
   <div class="product-image">
-    <img src="assets/img/img_025.jpg" alt="Lámpara Kioto" style="width:100%;height:100%;object-fit:cover;display:block;" onclick="openModal('023')" style="cursor:pointer">
-    
-    
-    <div class="product-overlay">
-        <button class="overlay-btn" onclick="openModal('023')">Ver detalle</button>
-      </div>
+    <img src="assets/img/img_025.jpg" alt="Lámpara Kioto" style="width:100%;height:100%;object-fit:cover;display:block;" >
+    <span class="soldout-badge">SOLD OUT</span>
+
+
   </div>
   <div class="product-info">
     <span class="product-num">023</span>
@@ -635,14 +631,12 @@ footer{padding:2.5rem 4rem;background:var(--dark);display:grid;grid-template-col
     <span class="product-price">$ 220.000</span>
   </div>
 </div>
-<div class="product-card" data-material="cerámica" data-soldout="false">
+<div class="product-card soldout-card" data-material="cerámica" data-soldout="true">
   <div class="product-image">
-    <img src="assets/img/img_031.jpg" alt="Lámpara St Barth R" style="width:100%;height:100%;object-fit:cover;display:block;" onclick="openModal('029')" style="cursor:pointer">
-    
-    
-    <div class="product-overlay">
-        <button class="overlay-btn" onclick="openModal('029')">Ver detalle</button>
-      </div>
+    <img src="assets/img/img_031.jpg" alt="Lámpara St Barth R" style="width:100%;height:100%;object-fit:cover;display:block;" >
+    <span class="soldout-badge">SOLD OUT</span>
+
+
   </div>
   <div class="product-info">
     <span class="product-num">029</span>
@@ -1021,7 +1015,7 @@ const LAMPS = {
 "008":{name:"Adelaide",mat:"Base en Raku",medidas:"12 x 22 cm",precio:"$ 230.000",soldout:true,img:"assets/img/img_056.jpg"},
 "009":{name:"Oporto",mat:"Base en Raku",medidas:"18 x 34 cm",precio:"$ 310.000",soldout:true,img:"assets/img/img_057.jpg"},
 "010":{name:"Quito",mat:"Base en cerámica",medidas:"16 x 43 cm",precio:"$ 460.000",soldout:false,img:"assets/img/img_058.jpg"},
-"011":{name:"Siena",mat:"Base en Raku",medidas:"16 x 36 cm",precio:"$ 480.000",soldout:false,img:"assets/img/img_059.jpg"},
+"011":{name:"Siena",mat:"Base en Raku",medidas:"16 x 36 cm",precio:"$ 480.000",soldout:true,img:"assets/img/img_059.jpg"},
 "012":{name:"Tampa",mat:"Base en cerámica",medidas:"9 x 25 cm",precio:"$ 210.000",soldout:false,img:"assets/img/img_060.jpg"},
 "013":{name:"Barcelona M",mat:"Base en cerámica",medidas:"18 x 32 cm",precio:"$ 340.000",soldout:false,img:"assets/img/img_061.jpg"},
 "014":{name:"Barcelona L",mat:"Base en cerámica",medidas:"16 x 38 cm",precio:"$ 360.000",soldout:false,img:"assets/img/img_062.jpg"},
@@ -1033,13 +1027,13 @@ const LAMPS = {
 "020":{name:"Valencia L",mat:"Base en Raku",medidas:"16 x 46 cm",precio:"$ 460.000",soldout:false,img:"assets/img/img_068.jpg"},
 "021":{name:"Milán",mat:"Base en cerámica",medidas:"10 x 40 cm",precio:"$ 250.000",soldout:false,img:"assets/img/img_069.jpg"},
 "022":{name:"Venecia",mat:"Base en cerámica",medidas:"10 x 35 cm",precio:"$ 250.000",soldout:false,img:"assets/img/img_070.jpg"},
-"023":{name:"Kioto",mat:"Base en cerámica",medidas:"13 x 23 cm",precio:"$ 220.000",soldout:false,img:"assets/img/img_071.jpg"},
+"023":{name:"Kioto",mat:"Base en cerámica",medidas:"13 x 23 cm",precio:"$ 220.000",soldout:true,img:"assets/img/img_071.jpg"},
 "024":{name:"Davos",mat:"Base en cerámica",medidas:"16 x 35 cm",precio:"$ 310.000",soldout:true,img:"assets/img/img_072.jpg"},
 "025":{name:"Seúl",mat:"Base en cerámica",medidas:"16 x 32 cm",precio:"$ 340.000",soldout:false,img:"assets/img/img_073.jpg"},
 "026":{name:"Zurich",mat:"Base en cerámica",medidas:"16 x 32 cm",precio:"$ 310.000",soldout:true,img:"assets/img/img_074.jpg"},
 "027":{name:"Bari",mat:"Base en cerámica",medidas:"12 x 27 cm",precio:"$ 260.000",soldout:true,img:"assets/img/img_075.jpg"},
 "028":{name:"St Barth L",mat:"Base en cerámica",medidas:"18 x 8 cm",precio:"$ 220.000",soldout:true,img:"assets/img/img_076.jpg"},
-"029":{name:"St Barth R",mat:"Base en cerámica",medidas:"18 x 8 cm",precio:"$ 220.000",soldout:false,img:"assets/img/img_077.jpg"},
+"029":{name:"St Barth R",mat:"Base en cerámica",medidas:"18 x 8 cm",precio:"$ 220.000",soldout:true,img:"assets/img/img_077.jpg"},
 "030":{name:"St Thomas",mat:"Base en cerámica",medidas:"20 x 8 cm",precio:"$ 220.000",soldout:false,img:"assets/img/img_078.jpg"},
 "031":{name:"St Marteen",mat:"Base en cerámica",medidas:"18 x 9 cm",precio:"$ 220.000",soldout:false,img:"assets/img/img_079.jpg"},
 "032":{name:"St John M",mat:"Base en cerámica",medidas:"23 x 7 cm",precio:"$ 220.000",soldout:false,img:"assets/img/img_080.jpg"},
